@@ -2,7 +2,7 @@
 
 ## Getting started
 
-1. Clone the repository:
+1. Clone the repository
 
 2. Install all required Node.js packages:
 
@@ -50,6 +50,9 @@ curl -v -X GET http://localhost:8000/block/foobar
 ```
 # Add new block to the blockchain
 curl -d '{"body": "New (kid) on the block!"}' -H "Content-Type: application/json" -X POST http://localhost:8000/block
+
+# Get newly added block
+curl -v -X GET http://localhost:8000/block/11
 
 # Trying to create a block without data will return an error
 curl -d '{"body": ""}' -H "Content-Type: application/json" -X POST http://localhost:8000/block
