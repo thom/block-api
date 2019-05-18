@@ -57,3 +57,7 @@ curl -v -X GET http://localhost:8000/block/11
 # Trying to create a block without data will return an error
 curl -d '{"body": ""}' -H "Content-Type: application/json" -X POST http://localhost:8000/block
 ```
+
+## Requirements
+
+Graded according to the [Project Rubric](https://review.udacity.com/#!/rubrics/1707/view).
