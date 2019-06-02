@@ -1,4 +1,4 @@
-# Project 3: Connect Private Blockchain to Front-End Client via APIs
+# Udacity Blockchain Developer Nanodegree Program - Project 3: Connect Private Blockchain to Front-End Client via APIs
 
 ## Getting started
 
