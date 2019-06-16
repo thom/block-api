@@ -61,3 +61,8 @@ curl -d '{"body": ""}' -H "Content-Type: application/json" -X POST http://localh
 ## Requirements
 
 Graded according to the [Project Rubric](https://review.udacity.com/#!/rubrics/1707/view).
+
+## License
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2019 © <a href="https://github.com/thom" target="_blank">Thomas Weibel</a>.
